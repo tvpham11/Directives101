@@ -1,0 +1,11 @@
+.container {
+  width: 600px;
+  margin: 10px auto; }
+
+.card {
+  background-color: lightgrey;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+  cursor: pointer; }

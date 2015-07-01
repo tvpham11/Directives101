@@ -1,0 +1,8 @@
+<div class="card">
+  <h3>{{ person.name }}</h3>
+  <ul>
+    <li ng-repeat="f in person.films">
+      <a href="# ng-click="findFilm(f)">Film {{ $index }}</a>
+    </li>
+  </ul>
+</div>
